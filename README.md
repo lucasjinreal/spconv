@@ -20,6 +20,8 @@ to built **spconv**, simply:
 ```
 # make sure your gcc version if 5
 python3 setup.py bdist_wheel
+cd dist
+sudo pip3 install spconv-1.1-cp36-cp36m-linux_x86_64.whl
 ```
 
 then everything is done.
